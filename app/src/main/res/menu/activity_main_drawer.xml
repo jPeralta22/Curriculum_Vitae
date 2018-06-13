@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/id_datos_personales"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Datos Personales" />
+        <item
+            android:id="@+id/id_preparacion_academica"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Preparacion Academica" />
+        <item
+            android:id="@+id/id_experiencia_laboral"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Experiencia Laboral" />
+        <item
+            android:id="@+id/id_referencia_personal"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Referencia Personal" />
+    </group>
+
+</menu>
