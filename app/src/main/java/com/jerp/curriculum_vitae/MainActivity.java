@@ -20,7 +20,8 @@ public class MainActivity extends AppCompatActivity
         Datos_Personales.OnFragmentInteractionListener,
         Preparacion_Academica.OnFragmentInteractionListener,
         Experiencia_Laboral.OnFragmentInteractionListener,
-        Referencia_Personal.OnFragmentInteractionListener{
+        Referencia_Personal.OnFragmentInteractionListener,
+        Cursos_Realizados.OnFragmentInteractionListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
