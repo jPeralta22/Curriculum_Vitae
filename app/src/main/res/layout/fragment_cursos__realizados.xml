@@ -28,7 +28,8 @@
             app:layout_constraintRight_toRightOf="parent"
             android:layout_marginLeft="8dp"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintVertical_bias="0.185" />
+            app:layout_constraintVertical_bias="0.015"
+            app:layout_constraintHorizontal_bias="0.465" />
 
         <TextView
             android:id="@+id/textView27"
@@ -36,6 +37,7 @@
             android:layout_height="wrap_content"
             android:text="CURSO:"
             android:textStyle="italic"
+            android:textColor="#E57373"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -44,8 +46,8 @@
             app:layout_constraintRight_toRightOf="parent"
             android:layout_marginLeft="8dp"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintHorizontal_bias="0.144"
-            app:layout_constraintVertical_bias="0.264" />
+            app:layout_constraintHorizontal_bias="0.143"
+            app:layout_constraintVertical_bias="0.34" />
 
         <EditText
             android:id="@+id/editText20"
@@ -64,8 +66,7 @@
             app:layout_constraintRight_toRightOf="parent"
             android:layout_marginLeft="8dp"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintHorizontal_bias="0.503"
-            app:layout_constraintVertical_bias="0.346" />
+            app:layout_constraintVertical_bias="0.443" />
 
         <TextView
             android:id="@+id/textView28"
@@ -73,6 +74,7 @@
             android:layout_height="wrap_content"
             android:text="INSTITUCION:"
             android:textStyle="italic"
+            android:textColor="#E57373"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -81,8 +83,8 @@
             app:layout_constraintRight_toRightOf="parent"
             android:layout_marginLeft="8dp"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintHorizontal_bias="0.163"
-            app:layout_constraintVertical_bias="0.464" />
+            app:layout_constraintHorizontal_bias="0.162"
+            app:layout_constraintVertical_bias="0.546" />
 
         <EditText
             android:id="@+id/editText21"
@@ -102,7 +104,23 @@
             app:layout_constraintRight_toRightOf="parent"
             android:layout_marginLeft="8dp"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintVertical_bias="0.537"
+            app:layout_constraintVertical_bias="0.626"
             app:layout_constraintHorizontal_bias="0.569" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="130dp"
+            android:layout_height="101dp"
+            app:srcCompat="@mipmap/ug"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintVertical_bias="0.098" />
     </android.support.constraint.ConstraintLayout>
 </FrameLayout>
