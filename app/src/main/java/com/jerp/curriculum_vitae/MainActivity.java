@@ -100,6 +100,9 @@ public class MainActivity extends AppCompatActivity
 
         }else if (id == R.id.id_referencia_personal) {
             fragmentManager.beginTransaction().replace(R.id.contenedor, new Referencia_Personal()).commit();
+
+        }else if (id == R.id.id_cursos_realizados) {
+            fragmentManager.beginTransaction().replace(R.id.contenedor, new Cursos_Realizados()).commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

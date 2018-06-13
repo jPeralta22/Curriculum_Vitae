@@ -18,6 +18,10 @@
             android:id="@+id/id_referencia_personal"
             android:icon="@drawable/ic_menu_send"
             android:title="Referencia Personal" />
+        <item
+            android:id="@+id/id_cursos_realizados"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Curso Realizado" />
     </group>
 
 </menu>
